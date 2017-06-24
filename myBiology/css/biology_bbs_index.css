@@ -1,0 +1,121 @@
+body{
+    background: url(../images/bigbg2.jpg) no-repeat;
+    background-size: cover;
+}
+.margin_left{
+    background: #fff;
+    margin:1rem 1rem 1rem 0;
+}
+.margin_right{
+    background: #fff;
+    margin:1rem 0;
+    padding: 1rem;
+}
+a{
+    color: green;
+}
+
+/*头部*/
+#header_top_show{
+    height:25rem;
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+}
+#top_show{
+    position: absolute;
+    top:50%;
+    left:30%;
+    width: 40%;
+    color:#fff;
+}
+#top_show a{
+    color: #fff;
+
+}
+#top_show a.btn-default{
+    background: #333;
+
+}
+#header_top_list{
+    background: #fff;
+}
+#header_top_list ul{
+    margin-bottom: 0;
+}
+#header_top_list li{
+    margin: 1rem;
+
+}
+#header_top_list li a{
+    color: #000;
+    font-size: 1.6rem;
+}
+#header_top_list li a:hover{
+   text-decoration: none;
+    color: green;
+}
+/*左侧内容*/
+#content_left{
+    padding: 0;
+}
+#content_left ul.fensi{
+    background: #fff;
+    margin:1rem 1rem 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+#content_left ul.fensi li{
+    /*border-right: 1px solid #000;*/
+
+}
+#content_left ul.fensi li p{
+
+    padding:0 1.5rem;
+    margin: .5rem;
+}
+#content_left .margin{
+    margin:.5rem auto;
+}
+/*右侧内容*/
+#content_right{
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+#content_right .row{
+    margin-top:.5rem;
+}
+#content_right ul.nav.nav-pills{
+    background: #f1f1f1;
+    margin:1rem 0;
+}
+#content_right ul.nav.nav-pills>li{
+    padding:0 .5rem;
+
+    border-bottom: 2px solid transparent;
+}
+#content_right ul.nav.nav-pills>li:hover{
+    background: #fff;
+    border-bottom-color: green;
+}
+#content_right ul.nav.nav-pills a{
+
+    color: #000;
+}
+#content_right ul.nav.nav-pills a:hover{
+    color: green;
+    background: #fff;
+}
+/*#content_right ul.weibo_comment{*/
+    /*margin:.5rem 0;*/
+    /*display: flex;*/
+    /*justify-content:center;*/
+/*}*/
+/*#content_right ul.weibo_comment>li{*/
+    /*margin:0;*/
+    /*padding: .5rem 3rem;*/
+    /*border-right: 1px solid #ddd;*/
+/*}*/
+/*#content_right ul.weibo_comment>li.last{*/
+    /*border-right: none;*/
+/*}*/

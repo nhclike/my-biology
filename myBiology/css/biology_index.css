@@ -1,0 +1,22 @@
+#section a{
+    color:green;
+}
+
+#section{
+    background: url(../images/banner1.jpg) no-repeat;
+    background-size:cover;
+}
+#section>.container>.row{
+    margin: 1rem auto;
+}
+#center .row{
+background-color:#DFF0D8;
+    margin: 1rem auto;
+}
+.active{
+    color: green;
+    background-color: #fff;
+}
+#index_right>.row{
+    margin-bottom: 1rem;
+}

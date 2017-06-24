@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2,viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--3,x-ua-compatible-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>bbs留言板</title>
+    <!--4引入两个兼容文件-->
+    <!--[if it IE 9]>
+        <script src="../js/html5shiv.min.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <!--6引入bootstrap.css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+</head>
+<body>
+
+    <section>
+        <!--发表留言-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <form action="" class="form-horizontal" id="bbs_message_send">
+
+                        <div class="form-group form-inline">
+                                <label for="" class="control-label">用户名称:</label>
+                                <button class="username btn btn-success btn-sm"></button>
+                         </div>
+
+                        <div class="form-group">
+                                <label for="" class="control-label"></label>
+                                <textarea name="text" id="bbs_content"  rows="3" value="" required  class="form-control">
+                                </textarea>
+                        </div>
+
+                        <div class="form-group">
+                                <div class="col-sm-10">
+                                    <ul class="list-inline list-unstyled">
+                                        <li><a href="#">图片</a></li>
+                                        <li><a href="">表情</a></li>
+                                        <li><a href="">视频</a></li>
+                                        <li><a href="">常用</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-2">
+                                    <button type="button" class="btn btn-success btn_send">发表留言</button>
+                                </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--显示留言列表-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2" id="bbs_list">
+                    <div class="msg panel panel-success">
+                        <div class="panel-heading clearfix">
+                            <h4 class="pull-left">发布人:xxxx</h4>
+                            <h4 class="pull-right">发布时间:xxxx</h4>
+                        </div>
+                        <div class="panel-body">
+                             <p>留言内容：xxx</p>
+                        </div>
+                        <div class="panel-footer clearfix">
+                            <button type="button" class="btn btn-success btn-sm pull-right">回复</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--引入jquery,bootstrap js-->
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!--引入bootlint.js检查格式错误-->
+    <!--<script src="../js/bootlint.js"></script>-->
+    <!--<script>-->
+        <!--bootlint.showLintReportForCurrentDocument([])-->
+    <!--</script>-->
+    <script src="../js/biology_bbs_message.js">
+
+    </script>
+</body>
+</html>

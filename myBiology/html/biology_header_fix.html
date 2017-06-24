@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2,viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--3,x-ua-compatible-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>分页头部固定导航栏</title>
+    <!--4引入两个兼容文件-->
+    <!--[if it IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <!--6引入bootstrap.css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--顶部固定导航-->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#biolgy_header_fixed">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="biology_index.html" class="navbar-brand">BIOLOGY</a>
+            </div>
+            <div class="collapse navbar-collapse" id="biology_header_fixed">
+
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="active">
+                        <a href="">木虫导航</a>
+                    </li>
+                    <li>
+                        <a href="">视频</a>
+                    </li>
+                    <li>
+                        <a href="">视频</a>
+                    </li>
+                    <li>
+                        <a href="">视频</a>
+                    </li>
+                    <li>
+                        <a href="">视频</a>
+                    </li>
+                    <li>
+                        <a href="">视频</a>
+                    </li>
+                </ul>
+
+                <form action="" class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" palceholder="Search"/>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">板块导航</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            个人中心
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">我发表的主题</a></li>
+                            <li><a href="">我的消息</a></li>
+                            <li><a href="">我收藏的主题</a></li>
+                            <li><a href="">我的淘帖</a></li>
+                            <li><a href="">我的个人资料</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<!--引入jquery,bootstrap js-->
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!--引入bootlint.js检查格式错误-->
+<script src="../js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([])
+</script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2,viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--3,x-ua-compatible-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>首页通用头部/底部</title>
+    <!--4引入两个兼容文件-->
+    <!--[if it IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <!--6引入bootstrap.css-->
+    <link rel="stylesheet" href="../css/common.css"/>
+</head>
+<body>
+    <!--底部-->
+    <div id="footer1">
+        <nav class="navbar navbar-default">
+            <div class="collapse navbar-collapse clearfix">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">业务介绍</a></li>
+                    <li><a href="#">媒体中心</a></li>
+                    <li><a href="#">实验中心</a></li>
+                    <li><a href="#">招贤纳士</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--底部-->
+    <footer id="footer2">
+        <div id="footer2-inner">
+            <p class="pull-left">COPYRIGHT © 2016   BIOLOGY控股集团有限公司  沪ICP备13234678号</p>
+            <p class="powered pull-right">Powered by 17sucai.com</p>
+        </div>
+    </footer>
+
+<!--引入jquery,bootstrap js-->
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!--引入bootlint.js检查格式错误-->
+<script src="../js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([])
+</script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2,viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--3,x-ua-compatible-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>首页通用头部/底部</title>
+    <!--4引入两个兼容文件-->
+    <!--[if it IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <!--6引入bootstrap.css-->
+    <link rel="stylesheet" href="../css/common.css"/>
+</head>
+<body>
+    <!--顶部-->
+    <div id="top" width="100%">
+        <div class="container">
+            <div class="social">
+                <ul class="list-unstyled list-inline">
+                    <li><a href="#" class="facebook"> </a></li>
+                    <li><a href="#" class="facebook twitter"> </a></li>
+                    <li><a href="#" class="facebook chrome"> </a></li>
+                    <li><a href="#" class="facebook dribbble"> </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--//top_nav-->
+    <div id="top_nav">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="logo">
+                        <h1><a href="../index.html">BIOLOGY</a></h1>
+                    </div>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="codes.html">Codes</a></li>
+                        <li><a href="biology_bbs_message.html" class="scroll">贴吧讨论区</a></li>
+                        <li><a href="biology_bbs_index.html" class="dropdown-toggle">BBS主页<span class="cart"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="biology_bbs_intro_bsty.html">BBS1</a></li>
+                                <li><a href="biology_bbs_intro_bsty.html">BBS2</a></li>
+
+                                <li><a href="biology_bbs_intro_bsty.html">BBS3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav nav-pills pull-right">
+                        <li><a href="">login</a></li>
+                        <li><a href="biology_register.html">regin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+
+<!--引入jquery,bootstrap js-->
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!--引入bootlint.js检查格式错误-->
+<script src="../js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([])
+</script>
+
+</body>
+</html>

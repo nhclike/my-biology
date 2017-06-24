@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<!--1,lang="zh-cn"-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2,viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--3,x-ua-compatible-->
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title></title>
+    <!--4引入两个兼容文件-->
+    <!--[if it IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <!--6引入bootstrap.css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/biology_about.css"/>
+    <style>
+        #login_board{
+            margin-top:15%;
+
+        }
+        form.form-horizontal{
+            background: rgba(255,255,255,.5);
+            padding: 2rem;
+            border: 1px solid #fff;
+            box-shadow:1.5rem 1.5rem 5.5rem ;
+            border-radius: .5rem;
+
+        }
+    </style>
+</head>
+<body>
+    <header id="header"></header>
+
+    <!--背景视频播放-->
+    <video src="../resource/green.mov" width="100%" height="100%" autoplay controls muted preload="auto" id="ve" loop>
+        您的浏览器不支持video标签
+    </video>
+
+    <section id="section">
+        <div class="container">
+            <div class="row"  id="login_board">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <form action="" method="post" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="uname" class="control-label col-sm-2">用&nbsp户&nbsp名</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" name="uname" value="" id="uname" required autofocus placeholder="请输入6-10位字母或数字"/>
+                                    </div>
+                                    <span class="help-block btn btn-danger">*必填</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="upwd" class="control-label col-sm-2">密&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp码</label>
+                                    <div class="col-sm-8">
+                                        <input type="upwd" class="form-control" name="upwd" value="" id="upwd" placeholder="请设置6位数密码" required/>
+                                    </div>
+                                    <span class="help-block btn btn-danger">*必填</span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="control-label col-sm-2">邮&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp箱</label>
+                                    <div class="col-sm-8">
+                                        <input type="email" class="form-control" value=" " name="email" id="email" multiple placeholder="请输入您的电子邮箱"/>
+                                    </div>
+                                    <span class="help-block"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="age" class="control-label col-sm-2">年&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp龄</label>
+                                    <div class="col-sm-8">
+                                        <input type="number" class="form-control" value="" name="age" max="100" min="3" id="age" placeholder="请输入您的年龄"/>
+                                    </div>
+                                    <span class="help-block"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="birth" class="control-label col-sm-2">生&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp日</label>
+                                    <div class="col-sm-8">
+                                        <input type="date" class="form-control" value="" name="age" id="birth"/>
+                                    </div>
+                                    <span class="help-block"></span>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <div class="checkbox">
+                                            <label for="">
+                                                <input type="checkbox"/>同意我们的协议
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-success btn-block" id="register" type="button">立即注册</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--<div class="col-sm-4">-->
+                            <!--<img src="../images/3.jpg" alt="" class="img-responsive"/>-->
+                            <!--<img src="../images/3.jpg" alt="" class="img-responsive"/>-->
+                        <!--</div>-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer"></footer>
+
+<!--引入jquery,bootstrap js-->
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<!--引入bootlint.js检查格式错误-->
+<script src="../js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([])
+</script>
+    <script src="../js/biology_register.js"></script>
+</body>
+</html>
